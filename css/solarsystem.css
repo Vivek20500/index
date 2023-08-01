@@ -1,0 +1,72 @@
+.body {
+    background-image: url('./space.jpg');
+}
+.header{
+    background-color:black;
+    z-index: 100;
+}
+.headline{
+    color: white;
+    font-family: 'roboto';
+    font-style: italic;
+    font-size: 50px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+}
+.name{
+    position:sticky;
+    top:0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    right: 0px;
+    left:0px;
+    z-index: 100;
+}
+.p{
+    display: inline-block;
+    padding: 15px;
+    background-color: black;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    font-size: 20px;
+}
+.main-body{
+    position:relative;
+}
+.planet{
+    background-color: black;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px white;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic{
+    width:400px;
+    height: fit-content;
+}
+.info{
+    flex:1;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+}
+.title{
+    margin-top: 5px;
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: white;
+}
+.wiki{
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+}
+
+
